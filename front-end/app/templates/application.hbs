@@ -1,0 +1,28 @@
+{{#paper-nav-container classNames="ember-app"}}
+
+      {{#paper-sidenav classNames="md-sidenav-left md-whiteframe-z2" flex-layout="column" flex=true}}
+
+        {{#paper-toolbar}}
+          <div class="md-toolbar-tools">
+            <div class="logo">
+               <strong>Contacts</strong>
+            </div>
+          </div>
+        {{/paper-toolbar}}
+
+        {{#paper-content}}
+          <nav class="sidenav">
+           <ul>
+              <li>{{link-to 'Home' 'index'}}</li>
+              <li>{{link-to 'Contacts' 'contacts'}}</li>
+           </ul>
+          </nav>
+        {{/paper-content}}
+      {{/paper-sidenav}}
+
+      {{#paper-content  flex-layout="column" flex=true}}
+
+        {{outlet}}
+      {{/paper-content}}
+
+{{/paper-nav-container}}

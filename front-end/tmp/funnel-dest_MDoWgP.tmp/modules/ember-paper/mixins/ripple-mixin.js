@@ -1,0 +1,1 @@
+/Users/jpserra/Development/ember/ember-rails/front-end/node_modules/ember-paper/addon/mixins/ripple-mixin.js
